@@ -1,7 +1,6 @@
 //Write embedded program that show a bouncing light between 4 LEDs connected to pins 4, 5, 6 and 7.
 //The bouncing delay is 1 second.
 void setup() {
-  // initialize digital pin 13 as an output.
   pinMode(5, OUTPUT);
   pinMode(6, OUTPUT);
   pinMode(7, OUTPUT);

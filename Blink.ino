@@ -29,4 +29,14 @@ void loop() {
             digitalWrite(6, LOW);  
             digitalWrite(7, HIGH);  // turn the LED on (HIGH is the voltage level)
             delay(1000);              // wait for a second
+              digitalWrite(4, LOW);  
+              digitalWrite(5, LOW);   
+              digitalWrite(6, HIGH);  
+              digitalWrite(7, LOW);  // turn the LED on (HIGH is the voltage level)
+              delay(1000); 
+                digitalWrite(4, LOW);  
+                digitalWrite(5, HIGH);   
+                digitalWrite(6, LOW);  
+                digitalWrite(7, LOW);  // turn the LED on (HIGH is the voltage level)
+                delay(1000); 
 }
